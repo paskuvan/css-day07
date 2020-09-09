@@ -76,11 +76,6 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
     margin-left: 5em;
 }
 
-.cont-section-two {
-    position: relative;
-    bottom: 15em;  
-}
-
 .leaf-left {
     position: relative;
     right: 11em;
@@ -113,7 +108,17 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
 }
 
 .f-16 {
-    font-size: 15px;
+    font-size: 16px;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+
 }
 
 .img-pilates {
@@ -141,40 +146,40 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
 
 @media (max-width: 768px)  {
 
-    #first {
-		order: 2;
-	}
-	#second {
-		order: 5;
-	}
-	#third {
-		order: 1;
-	}
-	#fourth {
-		order: 3;
-    }
-
-    #fifty {
-        order: 6;
-    }
-
-    #sixty {
-        order: 4;
-    }
-
-    #sisty {
-        order: 9;
-    }
-
-    #eighty {
-        order: 7;
-    }
-
-    #ninety {
-        order: 8;
-    }
-    
     .no-margin {
         margin: 0;
     }
+
+    .none {
+        display: none;
+    }
+
+    .img-yoga {
+        width: 100%;
+        right: 0;
+    }
+
+    .img-women {
+        right: 0;
+    }
+
+    .title-header {
+    font-size: 25px;
+    text-align: center;
+    }
+
+    .sub-header {
+        font-size: 15px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .cont-all {
+        margin-top: 0;
+    }
+
+    .center {
+        text-align: center;
+    }
+
 }
