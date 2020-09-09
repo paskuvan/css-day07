@@ -11,3 +11,62 @@ body {
 .font-regular {
     font-weight: 300;
 }
+
+.red {
+    color: #ff6a6d;
+}
+
+.gray {
+    color: #3b3838;
+}
+
+.blue {
+    color: #6fd8f8;
+}
+
+.white {
+    color: white;
+}
+
+.gradient-red {
+    background: #ff6a6d;
+    background: -moz-linear-gradient(left,  #ff6a6d 0%, #f3787b 100%); 
+    background: -webkit-linear-gradient(left,  #ff6a6d 0%,#f3787b 100%); 
+    background: linear-gradient(to right,  #ff6a6d 0%,#f3787b 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6a6d', endColorstr='#f3787b',GradientType=1 ); 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3b3838;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ff6a6d !important;
+}
+
+.menu-transparent{
+    padding: 25px 0px 0 15px !important;
+}
+
+.title-header {
+    font-size: 40px;
+}
+
+.sub-header {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: justify;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.btn-gradient {
+    border-radius: 25px !important;
+    height: 50px;
+    width: 106px;
+    color: white !important;
+    font-weight: 700;
+    -webkit-box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
+-moz-box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
+box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
+}
