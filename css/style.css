@@ -80,3 +80,32 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
     position: relative;
     bottom: 15em;  
 }
+
+.leaf-left {
+    position: relative;
+    right: 11em;
+    width: 50%;
+    height: 50%;
+    top: 10em;
+}
+
+.element-right {
+    position: relative;
+    left: 12em;
+    width: 80%;
+    height: 80%;
+}
+
+.img-yoga {
+    width: 150%;
+    position: relative;
+    right: 10em;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-16 {
+    font-size: 15px;
+}
