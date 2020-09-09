@@ -70,3 +70,13 @@ body {
 -moz-box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
 box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
 }
+
+.align-header {
+    margin-top: 8em;
+    margin-left: 5em;
+}
+
+.cont-section-two {
+    position: relative;
+    bottom: 15em;  
+}
