@@ -138,3 +138,43 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
 .cont-all {
     margin-top: 8em;
 }
+
+@media (max-width: 768px)  {
+
+    #first {
+		order: 2;
+	}
+	#second {
+		order: 5;
+	}
+	#third {
+		order: 1;
+	}
+	#fourth {
+		order: 3;
+    }
+
+    #fifty {
+        order: 6;
+    }
+
+    #sixty {
+        order: 4;
+    }
+
+    #sisty {
+        order: 9;
+    }
+
+    #eighty {
+        order: 7;
+    }
+
+    #ninety {
+        order: 8;
+    }
+    
+    .no-margin {
+        margin: 0;
+    }
+}
