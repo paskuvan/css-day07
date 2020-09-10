@@ -97,6 +97,13 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
     height: 80%;
 }
 
+.element-left {
+    position: relative;
+    left: 60em;
+    width: 80%;
+    height: 80%;
+}
+
 .img-yoga {
     width: 150%;
     position: relative;
@@ -132,7 +139,12 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
 .img-women {
     width: 100%;
     position: relative;
-    right: 7em;
+    right: 45em;
+}
+
+.text-way {
+    position: relative;
+    left: 12em;
 }
 
 .contact {
@@ -180,6 +192,11 @@ box-shadow: -20px 16px 39px -18px rgba(255,106,109,1);
 
     .center {
         text-align: center;
+    }
+
+    .text-way {
+        
+        left: 0;
     }
 
 }
